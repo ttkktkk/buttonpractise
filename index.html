@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .yes{
+            color:black;
+        }
+        .no{
+            color:red;
+        }
+        .omg{
+            color:blue
+        }
+    </style>
 </head>
 <body>
-    <div id="hello">傘盗んだらあかんで</div>
+    <div id="hello" class="yes">傘盗んだらあかんで</div>
     <input type="button" value="傘があります" onclick="kkk()">
     <input type="button" value="傘はないです" onclick="ddd()">
     <input type="button" value="傘は帰ってきた" onclick="jjj()">
+    <div id="janken" class="yes">結果</div>
+    <input type="button" value="グー" onclick="aaa()">
+    <input type="button" value="チョキ" onclick="aaa()">
+    <input type="button" value="パー" onclick="aaa()">
+    <h1>
+        星座占い
+        <input type="button" value="順位を確認！" class="no" onclick="sss()">
+        <div id="seiza" class="yes"> </div>
+    </h1>
+    <h2>
+        
+    </h2>
     <script src="main.js"></script>
 </body>
 </html>
